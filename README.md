@@ -20,7 +20,7 @@ Links for class resources:
 Each description below includes the summary of the topics covered in the session, as well as the description of assignments and links to videos or other materials that students should work through.
 
 <details markdown="block">
-<summary> Introduction (Feb 20, 2026) </summary>
+<summary> 1. Introduction (Feb 20, 2026) </summary>
 
 We do an introduction to ML and compare it with *statistical modelling* using the simplest possible model, *linear regression*. We survey some of the problems that can be addressed with the techniques and tools that will be discussed during the semester. The examples will be run on Colab.
 
@@ -30,13 +30,14 @@ We do an introduction to ML and compare it with *statistical modelling* using th
 - Examples of input data for machine learning problems: tabular data, images, text. See *Iris data set* example with the notebook [iris_regression_classification.ipynb](https://github.com/isa-ulisboa/greends-pml/blob/main/notebooks/iris_regression_classification.ipynb)
 - [Example of inference for regression over the Iris data set](https://github.com/isa-ulisboa/greends-pml/blob/main/notebooks/iris_LM_inference.ipynb)
 - Statistics vs Machine Learning: Check video: [When to use stats vs. ML?](https://www.youtube.com/watch?v=xUsm34qnE30)
-- An example of a prediction task for time series: check the notebook [modeling ground water levels](https://www.kaggle.com/code/andreshg/timeseries-analysis-a-complete-guide/) for the Kaggle competition [Acea Smart Water Analytics](https://www.kaggle.com/competitions/acea-water-prediction/). Try to download the data and run the notebook to reproduce the results. 
+- The data set [Palmer Penguin](https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data/data) has different type of variables and can be explored in different ways. Try to understand the data and establish and explore a meaningful regression problem using a statistical and a ML approach.
+<!--- An example of a prediction task for time series: check the notebook [modeling ground water levels](https://www.kaggle.com/code/andreshg/timeseries-analysis-a-complete-guide/) for the Kaggle competition [Acea Smart Water Analytics](https://www.kaggle.com/competitions/acea-water-prediction/). Try to download the data and run the notebook to reproduce the results. --->
 </details>
 
 <!---
 
 <details markdown="block">
-<summary> Basic concepts (Feb 28, 2025): model, loss, fit, learning rate, perceptron, ... </summary>
+<summary> 2. Basic concepts (Feb 28, 2025): model, loss, fit, learning rate, perceptron, ... </summary>
 
 The goal of the following classes is to understand how ML models can be trained in and used to solve regression and classification problems. We start by applying the machine learning approach to well-known statistical problems like linear regression to illustrate the stepwise approach followed in ML. We use synthetic data generated from a linear or quadratic regression, where one can control the underlying model and the amout of noise. Then, we consider the  `Iris` tabular data set with 4 explanatory variables and categorical label that can be one of three species.
 
