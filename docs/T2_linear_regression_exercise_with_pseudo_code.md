@@ -1,4 +1,4 @@
-## Exercise with pseudo-code for SGD
+## Exercise with pseudo-code for Linear Regression
 
 Consider the following pseudo-code to train a simple Linear Regression model. What is the *loss* function that we aim at minimizing? What is the strategy to reduce the *loss* in each iteration? Is there a risk of *over-fitting*?
   
