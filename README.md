@@ -51,9 +51,10 @@ The goal of the following classes is to understand how ML models can be trained 
 - Discussions of the 1st assignment on Moodle (due date: March 11, 2026)
 - See (Raschka et al, 2022), Chapter 2: Training Simple Machine Learning Algorithms for Classification
 - Check the [introductory video on LR](https://www.youtube.com/watch?v=3dhcmeOTZ_Q) using ML approach.
-- Basic concepts in Machine learning: *model*, *fit*, *epochs*, *loss*, *learning rate*, *weights*, for a simple regression problem. See [Basic concepts notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T1_basic_concepts.md).
-- Exercise: define a Linear Regression class to with methods `.fit`and `.predict` and visualize the itereative process to find the optimal weights. See [exercise](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T1_linear_regression_exercise_with_pseudo_code.md). 
-- Extend the optimization approach to a binary classification problem. See [Basic concepts notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T1_basic_concepts.md).
+- Basic concepts in Machine learning: *model*, *fit*, *epochs*, *loss*, *learning rate*, *weights*, for a simple regression problem. See [Basic concepts notes](docs/T1_basic_concepts.md).
+- Exercise: define a Linear Regression class to with methods `.fit`and `.predict` and visualize the itereative process to find the optimal weights. See [exercise](docs/T1_Create_LInearRegression_class_fit_predict_visualize.py).
+- [Exercise](docs/T1_linear_regression_exercise_with_pseudo_code.md): consider the pseudo-code for the previous exercise, and relate it to concepts *loss function* and *stochastic gradient descent*.
+- Extend the optimization approach to a binary classification problem. See [Basic concepts notes](docs/T1_basic_concepts.md).
 </details>
 
 
