@@ -20,7 +20,7 @@ Links for class resources:
 Each description below includes the summary of the topics covered in the session, as well as the description of assignments and links to videos or other materials that students should work through.
 
 <details markdown="block">
-<summary> 1. Introduction (Feb 20, 2026) </summary>
+<summary><a name="T0"></a> 0. Introduction (Feb 20, 2026) </summary>
 
 We do an introduction to ML and compare it with *statistical modelling* using the simplest possible model, *linear regression*. We survey some of the problems that can be addressed with the techniques and tools that will be discussed during the semester. The examples will be run on Colab.
 
@@ -43,8 +43,8 @@ We do an introduction to ML and compare it with *statistical modelling* using th
 </details>
 
 
-<details markdown="block">
-<summary> 2. Basic concepts (Feb 27, 2026): model, loss, fit, learning rate, iterations, epochs </summary>
+<details id= markdown="block">
+<summary><a name="T1"></a> 1. Basic concepts (Feb 27, 2026): model, loss, fit, learning rate, iterations, epochs </summary>
 
 The goal of the following classes is to understand how ML models can be trained in and used to solve regression and classification problems. We start by applying the machine learning approach to well-known statistical models like linear regression to illustrate the stepwise approach followed in ML. We extend the approach to binary classification problems. 
 
@@ -58,7 +58,7 @@ The goal of the following classes is to understand how ML models can be trained 
 </details>
 
 <details markdown="block">
-<summary> 3. Basic concepts (Mar 6, 2026): Classification, logistic regression, entropy and cross-entropy, regularization, batch size</summary>
+<summary><a name="T2"></a> 2. Basic concepts (Mar 6, 2026): Classification, logistic regression, entropy and cross-entropy, regularization, batch size</summary>
 
 - See (Raschka et al, 2022), Chapter 3, pp 59-76
 - See [Basic concepts notes](docs/T2_basic_concepts_classification.md).
