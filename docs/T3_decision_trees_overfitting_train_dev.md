@@ -148,8 +148,8 @@ Decision trees are prone to *overfitting* since that if they grow enough they ca
     from sklearn.model_selection import train_test_split, GridSearchCV
     from sklearn.tree import DecisionTreeClassifier
 
-    # 1. Split data
-    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2)
+    # 1. Split data to save and independent subset of data for evaluation precision
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
     
     # 2. Define the parameter grid
     param_grid = {
@@ -164,6 +164,10 @@ Decision trees are prone to *overfitting* since that if they grow enough they ca
     
     # 4. Access the best parameters
     print(f"Best parameters: {grid_search.best_params_}")
+
+    # 5. Train the model with best hyper-parameters over all train+validation data
+
+    # 6. Evaluate the final model over the independent test data set.
     ```
 
     </details>
