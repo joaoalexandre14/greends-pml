@@ -14,6 +14,7 @@ Links for class resources:
 
 Some recommended tutorials:
   - [Scikit-Learn ML basic tutorial](https://www.youtube.com/playlist?list=PLSE7WKf_qqo0lmPLmigvXDTDcKcGhre32). This covers the basics of using package `sklearn` for  ML, including basics, core terminology , linear regression, logistic regression, accuracy, preprocessing, and pipelines.
+  - [MIT Introduction to Deep Learning](https://www.youtube.com/watch?v=alfdI7S6wCY)
 
 <!---
 [Overview notebook](https://github.com/isa-ulisboa/greends-pml/blob/main/ML_overview_with_examples.ipynb) This notebook provides an overview of the full course and contains pointers for other sources of relevant information and Python scripts.
