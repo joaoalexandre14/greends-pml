@@ -198,12 +198,10 @@ The goal of the following classes is to understand how ML models can be trained 
 - Exercise: apply the principles and code discussed above to the Montesinho burned area data set. You can convert the problem into a classification problem by categorizing the original response variable (burned area). See [Pre-processing notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T3_missing_data_categorical_scaling.md)
 </details>
 
-
-
-
+---
 
 <details markdown="block">
-<summary>5. Model Evaluation and hyper-parameter Tuning (Mar 27, 2025): cross-validation, strata and groups, grid-search </summary>
+<summary>5. Model Evaluation and hyper-parameter Tuning (Mar 27, 2026): cross-validation, strata and groups, grid-search </summary>
 
 - See (Raschka et al, 2022), Chapter 6: Learning Best Practices for Model Evaluation and hyper-parameter Tuning
 
