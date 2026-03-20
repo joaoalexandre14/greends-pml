@@ -185,7 +185,7 @@ The goal of the following classes is to understand how ML models can be trained 
   <summary>Figure 1.9 (Raschka et al, 2022) </summary>
   <img src="https://github.com/isa-ulisboa/greends-pml/blob/main/docs/supervised_learning_flowchart_raschka_2022.png" alt="Alt Text" width="600" >
   </details>
-- The Titanic data set example: See [Pre-processing notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T3_missing_data_categorical_scaling.md)
+- The Titanic data set example: See [Pre-processing notes](https://github.com/isa-ulisboa/greends-pml/blob/main/docs/T4_missing_data_categorical_scaling.md)
 - Removing and imputing missing values from the data set
 - Handling categorical data;
 - Bringing features onto the same scale;
