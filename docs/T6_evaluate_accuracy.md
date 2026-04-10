@@ -129,6 +129,10 @@ $${\rm F1~score}= 2 \times \frac{{\rm precision} \times {\rm recall}}{{\rm preci
 
 This is also known as the **Dice coefficient**. For the burned area example ${\rm F1~score}=0$ since in fact the F1 score is the *harmonic mean* of precision and recall. This metric still does not take into consideration true negatives (TN) and it is questionable since it gives the same importance to precision and recall.
 
+6. **Mattews correlation coefficient (MCC)**
+
+The Matthews correlation coefficient (MCC) is a reliable metric for evaluating binary (and multiclass) classifications in machine learning, offering a balanced measure even with imbalanced datasets. Ranging from -1 to +1, it considers all four confusion matrix entries (TP, TN, FP, FN). An MCC of +1 indicates perfect prediction, 0 is no better than random, and -1 indicates total disagreement. UNlike the F1-score, it is invariant to class swapping., which means it gigves the same weight to any of the classes.
+
 ---
 
 </details>
