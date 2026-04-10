@@ -131,7 +131,7 @@ This is also known as the **Dice coefficient**. For the burned area example ${\r
 
 6. **Mattews correlation coefficient (MCC)**
 
-The Matthews correlation coefficient (MCC) is a reliable metric for evaluating binary (and multiclass) classifications in machine learning, offering a balanced measure even with imbalanced datasets. Ranging from -1 to +1, it considers all four confusion matrix entries (TP, TN, FP, FN). An MCC of +1 indicates perfect prediction, 0 is no better than random, and -1 indicates total disagreement. UNlike the F1-score, it is invariant to class swapping., which means it gigves the same weight to any of the classes.
+The Matthews correlation coefficient (MCC) is a reliable metric for evaluating binary (and multiclass) classifications in machine learning, offering a balanced measure even with imbalanced datasets. Ranging from -1 to +1, it considers all four confusion matrix entries (TP, TN, FP, FN). An MCC of +1 indicates perfect prediction, 0 is no better than random, and -1 indicates total disagreement. Unlike the F1-score, it is invariant to class swapping, which means it gives the same weight to any of the classes.
 
 ---
 
