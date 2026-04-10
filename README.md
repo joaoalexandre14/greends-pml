@@ -218,9 +218,6 @@ The goal of the following classes is to understand how ML models can be trained 
 
 <details markdown="block">
 <summary> 6. Evaluation metrics (Apr 10, 2026): confusion matrix, precision, recall, F1-score, ROC curve, AUC </summary>
-- See (Raschka et al, 2022), Chapter 6: Learning Best Practices for Model Evaluation and hyper-parameter Tuning; performance evaluation metrics
-
-</details>
 
 - See (Raschka et al, 2022), Chapter 6: Learning Best Practices for Model Evaluation and hyper-parameter Tuning
 - Revise pipelines, train vs test -- see diagram (https://github.com/isa-ulisboa/greends-pml/blob/main/docs/holdout_method_fig62.png)
